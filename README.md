@@ -1,7 +1,16 @@
 # Installation
 
 # A) pip / venv setup (no Conda)
+## 0) Files
+Download these two ready-made files:
 
+📄 requirements.txt
+
+🧪 quickstart_venv.sh
+
+requirements.txt includes: numpy, pandas, matplotlib, scikit-learn, plotly, ipywidgets, jupyterlab, notebook, pillow, py3dmol, umap-learn, pacmap, and rdkit-pypi.
+
+⚠️ Note on RDKit: rdkit-pypi works on many Linux/macOS setups. If it fails on your platform (commonly on Windows), use the Conda environment instead.
 ## 1) Install (Linux/macOS)
 
 In your project folder (where `chemdiv.ipynb` and your libraries live):
