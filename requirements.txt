@@ -1,0 +1,21 @@
+# Python 3.12 recommended
+# Core scientific stack
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Chem-informatics
+rdkit-pypi  # If this fails to install on your platform, prefer the conda environment
+
+# Visualization / notebooks
+plotly
+ipywidgets
+jupyterlab
+notebook
+pillow
+py3dmol
+
+# Dimensionality reduction
+umap-learn
+pacmap
