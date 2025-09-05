@@ -1,0 +1,21 @@
+name: chemdiv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - rdkit
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - plotly
+  - ipywidgets
+  - jupyterlab
+  - notebook
+  - pillow
+  - umap-learn
+  - pip
+  - pip:
+      - pacmap
+      - py3dmol
